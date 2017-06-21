@@ -13,7 +13,7 @@ const AppClientReactRouterDOM = () => (
 );
 
 const AppClientReactRouter = () => (
-  <Router routes=App history={browserHistory}/>
+  <Router routes={App} history={browserHistory}/>
 );
 window.onload = () => {
   render(<AppClientReactRouter />, document.getElementById('main'));
